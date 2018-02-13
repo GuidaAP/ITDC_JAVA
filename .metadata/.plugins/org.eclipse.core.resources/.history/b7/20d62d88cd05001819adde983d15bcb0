@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+//		
+//		System.out.println("¬ведите первое число: ");
+//		
+//		String name1 = scanner.nextLine();
+//		
+//		System.out.println("¬ведите второе число:  ");
+//		
+//		String name2 = scanner.nextLine();
+//		
+//		System.out.println(name1 + name2 );
+		
+			
+			System.out.println("¬ведите первое число: ");
+			int number1 = scanner.nextInt();
+			System.out.println("¬ведите ¬торое число: ");
+			int number2 = scanner.nextInt();
+			System.out.println("number1 + " + "number2 =" + (number1 + number2));
+			
+		
+//		System.out.println("¬ведите первое число: ");
+//		long number1 = scanner.nextLong();
+//		
+//		System.out.println("¬ведите ¬торое число: ");
+//		long number2 = scanner.nextLong();
+//		
+//		long sum = number1 + number2; 
+//						
+////		System.out.println(number1 + number2 + sum);
+//		
+//		System.out.println(number1 + " + " + number2 + " = " + sum);
+	}
+
+}

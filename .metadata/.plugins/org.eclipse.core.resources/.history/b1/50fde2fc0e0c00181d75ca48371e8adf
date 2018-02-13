@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		int hour1 = scanner.nextInt();
+		int min1  = scanner.nextInt();
+		int sec1  = scanner.nextInt();
+		
+		int hour2 = scanner.nextInt();
+		int min2  = scanner.nextInt();
+		int sec2  = scanner.nextInt();
+		
+		int result_sec_firs= 3600*hour1 + 60*min1 + sec1;
+		
+		int result_sec_second= 3600*hour2 + 60*min2 + sec2;
+		
+		int difference = result_sec_second - result_sec_firs;
+		
+		System.out.println(difference);
+	}
+
+}

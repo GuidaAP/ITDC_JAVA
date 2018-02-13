@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		final int WAY_S = 109;
+		
+	    Scanner scanner = new Scanner(System.in);
+//		
+//		int speed = Math.abs(scanner.nextInt());
+//		int time = scanner.nextInt();
+//		int destination = WAY_S - speed*time ;
+//		
+//		System.out.println(Math.abs(destination));
+	    
+		int v = Math.abs(scanner.nextInt());
+		int t = scanner.nextInt();
+		
+		System.out.println(Math.abs(v*t)%WAY_S);
+		
+		
+		
+
+	}
+
+}

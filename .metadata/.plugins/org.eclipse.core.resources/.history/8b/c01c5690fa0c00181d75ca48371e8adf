@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.print("¬ведите минимальное значение ? ");
+        int min = scanner.nextInt();
+        
+        System.out.print("¬ведите максимальное значение ? ");
+		int max = scanner.nextInt();
+		
+		int random_mix = min + (int) (Math.random()*max);
+		
+//		??? int random_min = min + (int) (Math.random()*max);
+//		??? int random_max = min  (int) (Math.random()*max);
+		
+		System.out.println("—лучайное число от " + min + " до " +  max + ":" + " " + random_mix);
+		
+//		??? System.out.printf("—лучайно число от" + min + "до" +  max + ":" + " " + Math.random(min, max);
+
+	}
+
+}

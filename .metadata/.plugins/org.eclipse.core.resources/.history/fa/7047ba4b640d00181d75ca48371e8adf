@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int km_for_one_day = scanner.nextInt();
+		int all_way = scanner.nextInt();
+		
+		int day = all_way/km_for_one_day;
+		
+		System.out.println(Math.floor(day));
+		
+		
+	
+
+	}
+
+}
